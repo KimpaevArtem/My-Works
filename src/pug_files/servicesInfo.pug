@@ -1,0 +1,108 @@
+extends ./../pug_includes/main
+
+block variables
+    - var headerClass = ' mb-5'
+    - var mainPage = false
+    - var bodyClass = ' d-flex flex-column bg-custom'
+    - var footerClass = ' mt-5'
+
+block prepend head
+    title Services
+
+block prepend content
+    main
+        .container
+            h2.text-info.text-center.services-heading Services Info
+            .row.d-flex.justify-content-center
+                .card.border-0.card-shadow
+                    .card-header.bg-dark
+                        h5.text-white.text-center.mb-0 Starter
+                    .card-body.bg-white.text-center
+                        ul.list-unstyled.px-5.py-2
+                            li.mb-2
+                                b 20GB
+                                | Storage
+                            li.mb-2
+                                b 10
+                                | Email Address
+                            li.mb-2
+                                b 5
+                                | Domains
+                            li.mb-2
+                                b Endless
+                                | Support
+                        hr
+                        p.price.mb-0
+                            span.text-secondary.dollar $
+                            | 20
+                        p.text-muted per month
+                        button.btn.btn-success.text-uppercase.px-4 sign up
+                .card.border-0.card-shadow
+                    .card-header.bg-dark
+                        h5.text-white.text-center.mb-0 Value
+                    .card-body.bg-white.text-center
+                        ul.list-unstyled.px-5.py-2
+                            li.mb-2
+                                b 50GB
+                                | Storage
+                            li.mb-2
+                                b 10
+                                | Email Address
+                            li.mb-2
+                                b 15
+                                | Domains
+                            li.mb-2
+                                b Endless
+                                | Support
+                        hr
+                        p.price.mb-0
+                            span.text-secondary.dollar $
+                            | 29
+                        p.text-muted per month
+                        button.btn.btn-success.text-uppercase.px-4 sign up
+                .card.border-0.card-shadow.card-main
+                    .card-header.bg-dark
+                        h5.text-white.text-center.mb-0 Pro
+                    .card-body.bg-white.text-center
+                        ul.list-unstyled.px-5.py-2
+                            li.mb-2
+                                b 200GB
+                                | Storage
+                            li.mb-2
+                                b 20
+                                | Email Address
+                            li.mb-2
+                                b 25
+                                | Domains
+                            li.mb-2
+                                b Endless
+                                | Support
+                        hr
+                        p.price.mb-0
+                            span.text-secondary.dollar $
+                            | 49
+                        p.text-muted per month
+                        button.btn.btn-success.text-uppercase.px-4 sign up
+                .card.border-0.card-shadow
+                    .card-header.bg-dark
+                        h5.text-white.text-center.mb-0 Premium
+                    .card-body.bg-white.text-center
+                        ul.list-unstyled.px-5.py-2
+                            li.mb-2
+                                b 200GB
+                                | Storage
+                            li.mb-2
+                                b 20
+                                | Email Address
+                            li.mb-2
+                                b Unlimited
+                                | Domains
+                            li.mb-2
+                                b Endless
+                                | Support
+                        hr
+                        p.price.mb-0
+                            span.text-secondary.dollar $
+                            | 79
+                        p.text-muted per month
+                        button.btn.btn-success.text-uppercase.px-4 sign up

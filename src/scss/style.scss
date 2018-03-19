@@ -1,0 +1,10 @@
+$bg-color: #222930;
+
+$theme-colors: (
+        "light": #E9E9E9,
+        "info": #4EB1BA,
+        "custom": #222930
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./main.scss";

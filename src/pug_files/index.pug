@@ -1,0 +1,57 @@
+extends ./../pug_includes/main
+
+block variables
+    - var bodyClass = 'bg-custom'
+    - var mainPage= true
+    - var headerClass= ''
+    - var footerClass= ' mt-5'
+
+block prepend head
+    title Home
+
+block prepend content
+    main.mb-5
+        .container-fluid.p-0.mb-5
+            img.img-fluid.w-100(src='./../img/mountain.jpg')
+        .container
+            h2.text-center.mb-4.text-info Our trip variations
+            .row
+                .col-md-4
+                    .card.border-0
+                        img.card-img-top(src="https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1500&q=80")
+                        .card-body.text-light.bg-custom.border-0
+                            h3.text-center.text-info Comfort
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda dolor error expedita inventore iste iusto, laboriosam nesciunt perferendis possimus quidem sint vel voluptatibus. A corporis magni nam repellat voluptas!
+                .col-md-4
+                    .card.border-0
+                        img.card-img-top(src="https://images.unsplash.com/photo-1418662589339-364ad47f98a2?auto=format&fit=crop&w=1490&q=80")
+                        .card-body.text-light.bg-custom.border-0
+                            h3.text-center.text-info Extrime
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda dolor error expedita inventore iste iusto, laboriosam nesciunt perferendis possimus quidem sint vel voluptatibus. A corporis magni nam repellat voluptas!
+                .col-md-4
+                    .card.border-0
+                        img.card-img-top(src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1500&q=80")
+                        .card-body.text-light.bg-custom.border-0
+                            h3.text-center.text-info Smth Else
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda dolor error expedita inventore iste iusto, laboriosam nesciunt perferendis possimus quidem sint vel voluptatibus. A corporis magni nam repellat voluptas!
+            hr.mb-5.bg-info
+            h2.text-center.mb-4.text-info Our Team:
+            .row
+                .col-md-4
+                    .card.bg-custom.border-0
+                        img.card-img-top.mb-4.rounded-circle.mx-auto.team(src="https://pbs.twimg.com/profile_images/782474226020200448/zDo-gAo0_400x400.jpg")
+                        .card-body.text-light.border-0
+                            h4.text-center.text-info Elon
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda dolor error expedita inventore iste iusto, laboriosam nesciunt perferendis possimus quidem sint vel voluptatibus. A corporis magni nam repellat voluptas!
+                .col-md-4
+                    .card.bg-custom.border-0
+                        img.card-img-top.mb-4.rounded-circle.mx-auto.team(src="http://doramakun.ru/thumbs/users/21425/January-2/27360622-400.jpg")
+                        .card-body.text-light.border-0
+                            h4.text-center.text-info Djeky
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda dolor error expedita inventore iste iusto, laboriosam nesciunt perferendis possimus quidem sint vel voluptatibus. A corporis magni nam repellat voluptas!
+                .col-md-4
+                    .card.bg-custom.border-0
+                        img.card-img-top.mb-4.rounded-circle.mx-auto.team(src="https://pbs.twimg.com/profile_images/855160456083890176/kttMZp_C.jpg")
+                        .card-body.text-light.border-0
+                            h4.text-center.text-info Rihanna
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda dolor error expedita inventore iste iusto, laboriosam nesciunt perferendis possimus quidem sint vel voluptatibus. A corporis magni nam repellat voluptas!

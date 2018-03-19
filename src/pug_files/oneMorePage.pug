@@ -1,0 +1,21 @@
+extends ./../pug_includes/main
+
+block variables
+    - var bodyClass = 'bg-custom'
+    - var mainPage = false
+    - var headerClass = ' mb-5'
+    - var footerClass = ''
+
+block prepend head
+    title One More Page
+
+block prepend content
+    main.text-light
+        .container.mb-4
+            .row
+                .col-md-6.p-5
+                    h2 Lorem ipsum...
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad architecto atque commodi consequatur corporis culpa debitis ducimus enim impedit ipsa iste laborum odit quam quibusdam, quos sapiente vero.
+                .col-md-6.d-flex.align-items-center
+                    img.img-fluid(src="https://media.istockphoto.com/photos/travelling-tools-picture-id489556478")
+    img.img-fluid.map(src="https://images.unsplash.com/photo-1479232284091-c8829ec114ad?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05a92b002f109a802854dc39ff03efcd&auto=format&fit=crop&w=1502&q=80")
